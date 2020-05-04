@@ -1,0 +1,6 @@
+inft = (12 * 2.54)
+incm = 2.54
+ht = int(input('enter height in feet '))
+ht1 = int(input('enter height in inches '))
+htcm = (ht * inft) + (ht1 * incm)
+print('your height in cms is ', htcm)
