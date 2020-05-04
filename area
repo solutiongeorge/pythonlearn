@@ -1,0 +1,5 @@
+print('this program will let you compute area of a room')
+length = int(input("enter the length of the room "))
+breadth = int(input("enter the breadth of the room "))
+a = length * breadth
+print("the area of your room is " , a , "in square feet")
