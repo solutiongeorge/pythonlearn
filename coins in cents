@@ -1,0 +1,18 @@
+toonie = 200
+loonie = 100
+qtr = 25
+dime = 10
+nick = 5
+nocents = int(input('enter the dollar amount in cents '))
+toonies = nocents // toonie
+print ("toonies", toonies)
+nocents = nocents % toonie
+print ("loonies", nocents//loonie)
+nocents = nocents % loonie
+print ("quarters", nocents//qtr)
+nocents = nocents % qtr
+print ("dimes", nocents//dime)
+nocents = nocents % dime
+print ("nickels", nocents//nick)
+nocents = nocents % nick
+print ("pennies", nocents)
