@@ -1,0 +1,6 @@
+sqacre = 43560
+print("this program lets you input feet and give area in acres")
+side = float(input("enter the length of the plot in square feet "))
+side1 = float(input("enter the length of the plot in square feet "))
+area = side1 * side / sqacre
+print('the area of the plot in acres is' , area)
