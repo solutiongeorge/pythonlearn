@@ -1,0 +1,5 @@
+from math import sqrt
+g = 9.8
+d= float(input("from what height are you pushing him off. Enter in meters only "))
+tv = (sqrt(2 * g * d)/(1000*60*60))
+print("he will be travelling at a speed of " , tv , "kmph")
