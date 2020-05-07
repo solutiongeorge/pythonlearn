@@ -1,0 +1,22 @@
+name = 'celsea'
+sel = 69
+print('{} performs {} '.format(name, sel))
+#using string and substitute
+import string
+template = string.Template('her name is $name her $act costs $$$dollars dollars')
+print(template.substitute(name = 'chlsa', act = 'sucking', dollars = '7'))
+print(template.substitute(name = 'ftim', act = 'fucking', dollars = '3'))
+#using dictionary
+d = dict(name = 'michelle', act ='anal', dollars = 9)
+print(template.substitute(d))
+#replace commas
+string = ('she,loves,me')
+print(string)
+print(string.replace("," , ' '))
+#Handle user input
+string = input('enter your first string in text ')
+string2 = input('enter your 2nd string in text ')
+print(string + " " + string2)
+string3 = string + " " + string2
+print(len(string))
+print (string3)
