@@ -1,0 +1,15 @@
+g = bool(input('hit enter if female'))
+if not g:
+    age = int(input('whats your age: '))
+    if age < 18:
+        print('wait for ', 18-age, ' years for me to fuck you')
+    elif age >=50:
+        print('too late old hag')
+    else:
+        act = bool(input('do you suck cock'))
+        if not act:
+            print('come on in and suck me')
+        else:
+            print('you dont suck cock sorry')
+else:
+    print('only females fucker')
