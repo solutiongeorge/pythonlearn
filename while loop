@@ -1,0 +1,9 @@
+amount = int(input('how much do u have '))
+exp = int(input("spend "))
+while amount >= exp:
+    amount = amount - exp
+    print('you have', amount, 'left to spend')
+    exp = int(input('how much do u want to spend on next '))
+    if amount == exp:
+        print('thats your last chance')
+print('only idiots will spend', exp, 'when they have only', amount)
