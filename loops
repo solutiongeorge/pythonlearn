@@ -1,0 +1,38 @@
+for i in range(1, 4):
+    print('george', end='')
+for _ in range(1, 4):
+    print('george', ' ', end='')
+for i in range(1, 4):
+    print(i, ' ', end='')
+#with break loop
+num = int(input('how many times do you want your name to be printed. You can only print it 5 or less times '))
+for i in range(2,7):
+    if i== num:
+        break
+    print(num)
+print('thanks your name has been printed', num, 'times')
+#continue statement
+for i in range (1,9):
+    if i%2 == 1:
+        continue
+    print(i, 'is an even number')
+print('done')
+#continue with else statement
+num = int(input('enter '))
+for i in range (1,9):
+    if i == num:
+        continue
+    print(i)
+else:
+    print('number you selected was', num)
+print('done')
+
+#continue with else but with break statement
+num = int(input('enter '))
+for i in range (1,9):
+    if i == num:
+        break
+    print(i)
+else:
+    print('number you selected was', num)
+print('done')
