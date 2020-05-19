@@ -1,0 +1,18 @@
+import random
+numberx = random.randint(1,10)
+print('this program will give you four chances to guess the number the computer selected randomly')
+guess = int(input('enter your guess between 1 and 10 '))
+tries = 1
+while numberx != guess:
+        print('wrong choice')
+        if tries == 4:
+            break
+        elif guess < numberx:
+            guess = int(input('input go higher' ))
+        else:
+            guess = int(input('input lower '))
+        tries +=1
+if numberx == guess:
+    print('you took', tries, 'to guess', numberx)
+else:
+    print('you lost and the number was', numberx)
